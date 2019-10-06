@@ -22,3 +22,7 @@ end
 def reduce_to_all_true(array)
   array.all?
 end
+
+def reduce_to_any_true(array)
+  array.any?
+end
