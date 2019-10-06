@@ -20,5 +20,5 @@ def reduce_to_total(array, starting_point = 0)
 end
 
 def reduce_to_all_true(array)
-  array.all?
+  array.all? { |i| i == true}
 end
